@@ -103,21 +103,11 @@ Custom measures built using DAX:
 
 ```
 📦 credit-card-report
- ┣ 📄 credit_card.csv          # Raw transaction data
- ┣ 📄 customer.csv             # Customer demographics & income
- ┗ 📊 Credit_Card_Report.pbix  # Power BI project file
+ ┣ 📄 credit_card.csv                      # Raw transaction data
+ ┣ 📄 customer.csv                         # Customer demographics & income
+ ┗ 📊 Credit_Card Customer Report.pbf      # Power BI pdf project file
+ ┗ 📊 Credit_Card Transaction Report.pbf   # Power BI pdf project file
 ```
-
----
-
-## 🚀 How to Use
-
-1. Clone or download this repository.
-2. Open `Credit_Card_Report.pbix` in **Power BI Desktop**.
-3. If needed, update the data source paths to point to your local `credit_card.csv` and `customer.csv`.
-4. Click **Refresh** to reload the data.
-5. Use the slicers on each page to filter by week, gender, card type, or chip usage.
-
 ---
 
 *Built with Power BI · Data analysis project*
